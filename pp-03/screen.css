@@ -14,8 +14,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #two,
 #one {
   color: white;
-  height: 25vw;
-  width: 25vw;
 }
 #three {
   background-color: purple;
@@ -37,7 +35,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #three,
 #two,
 #one {
-
+  height: 25vw;
+  width: 25vw;
 }
 
 #three {
