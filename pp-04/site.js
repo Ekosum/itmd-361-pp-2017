@@ -47,6 +47,10 @@ console.log(i) // should be 'undefined', not 3
 //  variable x declared on line 5 above. Write your explanation
 //  as JavaScript comments.
 
+// This is because the function arguments are automatically scoped inside the function
+// so the x argument will only be used inside its aviable scope because  x is not 
+// a global function.
+
 function addTwo(x) {
   x = x + 2;
   return x;
