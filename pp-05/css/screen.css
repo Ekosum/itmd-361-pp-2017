@@ -25,3 +25,6 @@ body {
 
 
 /* ===== STATE STYLES ===== */
+#ring-doorbell{
+  cursor: pointer;
+}
